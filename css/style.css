@@ -1,0 +1,195 @@
+/*Generic Css*/
+
+h3{color: #3949AB;}
+.Dashboard{min-height: 800px;}
+.row{margin-right: 0;}
+
+/*Font-Face*/
+
+/*Base Css*/
+
+/*Sidebar Section*/
+.sidebar{background-color: #3949AB;padding: 0;min-height: 800px;position: relative;}
+.sidebar .navbar-default{background-color: transparent;border: none;}
+.sidebar .navbar{border-bottom: 1px solid #fff;border-radius: 0;}
+.sidebar .navbar-brand{color: #fff;}
+.sidebar .navbar-brand:hover{color: #fff;}
+.sidebar .side_link{padding-top: 20px;list-style-type: square;color: #fff;}
+.sidebar .side_link li{margin-bottom: 20px;}
+.sidebar .side_link li a{color: #E4E6F4;text-decoration: none;font-size: 1.125em;}
+.sidebar .side_link li a:hover{color: #fff;text-transform: uppercase;}
+.dropdown-menu{background-color: transparent;}
+.dropdown-menu li a:hover{background-color: transparent;color: #fff;}
+.social{position: absolute;bottom: 20px;padding-left: 20px;}
+.social img{margin: 10px;}
+
+
+
+/*Main bar*/
+.main-sec{overflow: auto;height: 750px;}
+.navbar-default .navbar-nav>li>a{color: #3949AB;font-size: 1.125em;font-weight: bold;}
+/*.mainbar{padding-left: 0;}*/
+.mainbar .navbar-default{background-color: transparent;border: none;}
+.mainbar .navbar{border-bottom: 1px solid #3949AB;border-radius: 0;margin-bottom: 0;}
+.mainbar .main-sec .heading h3{float: left;padding-left: 40px;}
+.mainbar .main-sec .heading .btn-primary{float: right;margin: 10px 60px 30px 0;}
+.btn-primary{background-color: transparent;color:#3949AB;}
+.mainbar .main-sec .boxes{clear: both;padding-left: 40px;box-sizing: border-box;}
+.box{border: 1px solid #3949AB; color: #3949AB;margin: 0 0px 20px 20px;}
+.box:hover{background-color:#5B67B9;color: #fff;box-shadow: 0 0 10px #3949AB;}
+.box h4{padding-bottom: 30px;text-decoration: underline;}
+.box p a{float: right;}
+.box:hover a{color: #fff;}
+.boxes .row .box{width: 22%;}
+
+
+
+/*Customers Section*/
+.mainbar .customer{padding-left: 30px;}
+.mainbar .customer h3{margin-bottom: 40px;}
+ .details h4{float: left;color: #3949AB;font-weight: bold;}
+ .details .form-group{float: right;}
+ .details .form-group .form-control{border: 1px solid #3949AB;border-radius: 0;}
+ .details .table{color: #3949AB;border: 1px solid #3949AB;height: 580px;}
+ .table .glyphicon{margin-right: 10px;}
+.details {height: 630px;overflow: auto;border-bottom: 1px solid #3949AB;}
+
+
+ .add h4{color: #3949AB;font-weight: bold;}
+ .add form{background-color: #3949AB; color: #fff;padding: 30px 0 30px 100px;height: 590px;box-sizing: border-box;}
+ .add .form-group{width: 80%;}
+ .add .btn-default{width: 80%;height: 40px;border: none;background-color: #2699FB;color: #fff;}
+
+
+ .edit h4{color: #3949AB;font-weight: bold;}
+ .edit form{background-color: #3949AB; color: #fff;padding: 30px 0 30px 100px;height: 580px;box-sizing: border-box;}
+ .edit .form-group{width: 80%;}
+ .edit .btn-default{width: 80%;height: 50px;border: none;background-color: #2699FB;color: #fff;}
+
+
+ .view h4{color: #3949AB;font-weight: bold;}
+ .view form{background-color: #3949AB; color: #fff;height: 580px;padding: 100px 60px;box-sizing: border-box;}
+ .view form .table{color: #fff;height: 40px;font-size: 1.125em;}
+ .view form .form-group1{padding-top: 40px;}
+ .view form .form-group1 .btn-default{float: left;background-color: transparent;border: 2px solid #fff;color: #fff;}
+ .view form .form-group1 .btn-primary{float: right;background-color: transparent;border: 2px solid #fff;color: #fff;}
+ .view form .form-group2 {clear: both;padding-top: 30px;}
+ .view form .form-group2 .btn-success{float: left;background-color: transparent;border: 2px solid #fff;color: #fff;}
+ .view form .form-group2 .btn-info{float: right;background-color: transparent;border: 2px solid #fff;color: #fff;}
+ .view form .btn{width: 30%;}
+
+
+
+ /*Stock */
+ .stock-box{border: 1px solid #3949AB;box-shadow: 0 0 5px #3949AB;margin: 50px;clear: both;}
+ .stock-box h5{color:#3949AB;font-weight: bold;font-size: 1.25em;}
+ .stock-box p{color:#3949AB;font-size: 1em;margin: 20px 0;}
+ .stock-box .can{width: 50%;background-color: #EBECF7;padding:20px 40px 40px;}
+ .stock-box .barrel{width: 50%;padding: 20px 40px 40px;}
+ .stock-box .can .form-control{width: 70%;border-color: #3949AB;background-color: #EBECF7;margin: 20px 0 30px;}
+ .stock-box .barrel .form-control{width: 70%;border-color: #3949AB;margin: 20px 0 30px;}
+ .stock-box .btn-primary{margin-right: 20px;width: 30%;}
+
+
+
+ /*Delivery*/
+ .add .form{padding: 60px 60px;}
+ hr{margin-bottom: 40px;}
+ .add .form .table{width: 70%;text-align: center;}
+ .CB h5{font-weight: bold;margin-bottom: 20px;}
+ .CB .form-control{margin-bottom: 50px;}
+ .CB p{margin-right: 30px;margin-bottom: 40px;}
+ .add .form .btn-default{text-align: center;}
+
+/*Invoice*/
+.invoice form{padding: 30px;}
+.invoice form label{margin:30px 0 0;}
+.invoice form .form-control{margin:0 0 30px;}
+.invoice form .table{margin: 30px 0;}
+.invoice .btn-primary{color: #fff;margin: 0 50px 20px 35px;width: 30%;}
+.summary form label{margin:0px 0 0;}
+.summary form .form-control{margin:0 0 20px;}
+form{overflow: auto;}
+
+
+/*Can Delivered*/
+.cand form{padding: 80px 0;}
+.cand .CD{background-color: #fff;border: 1px solid #fff;margin-top: 50px;text-align: center;padding: 20px 0;border-radius: 10px;}
+.cand .CD img{margin-top: 40px;}
+.cand .CD h3{color: #2699FB;font-weight: bold;}
+.cand .CD p{color: #2699FB;}
+
+/*Account*/
+.account{width:25%;}
+.account h4{padding-bottom: 30px;}
+.account p{padding-bottom: 20px;float: right;margin-right: 30px;font-size: 1.25em;}
+.history{clear: both;margin-left: 30px;}
+.history h4{color: #3949AB;}
+.history .form-control{width: 30%;color: #3949AB;display: inline-block;float: left;margin-right: 40px;margin-bottom: 20px;}
+.history .btn-primary{width: 29%;background-color: #3949AB;color: #fff;}
+
+.info{padding-top: 40px;overflow: auto;max-height: 400px;border-bottom: 1px solid #3949AB;clear: both;margin-left: 40px;}
+.info .table{border: 1px solid #3949AB;color: #3949AB;}
+
+
+/*Pay Bill*/
+.paybill .bill {text-align: center;}
+.paybill .bill h5{color: #fff;font-size: 1.375em;margin-bottom: 30px;}
+.paybill .bill .form-control{color: #3949AB;border-radius: 0;}
+.paybill .bill .btn-info{width: 100%;background-color: #2699FB;border-radius: 0;margin-top: 20px;}
+
+.paybill .BP{background-color: #fff;color: #2699FB;text-align: center;padding: 30px 0;}
+.paybill .BP  h3{color: #2699FB;font-weight: bold;margin-bottom: 20px;}
+.paybill .BP .btn-primary{background-color: transparent;color: #2699FB;width: 40%;font-weight: bold;border-color:  #2699FB;}
+
+
+
+
+/*/Registration Form*/
+.registration{background-color: #3949AB;padding: 40px 0 40px;color: #fff;border-right: 1px solid #3949AB;}
+.registration h3{color: #fff;font-weight: bold;padding-bottom: 20px;}
+.registration .checkbox{color: #fff;font-size: .7em;}
+.registration .btn-default{width: 100%;height: 40px;background-color: #2699FB;border-radius: 0;border: none;color: #fff;font-weight: bold;margin-top: 10px;}
+
+/*Login Form*/
+.login{padding-top: 150px;background-color: #ffff;}
+.login .log{background-color: #3949AB;padding: 50px;color: #fff;}
+.login .log h3{color: #fff;font-weight: bold;padding-bottom: 20px;}
+.login .log .btn-default{width: 100%;height: 40px;background-color: #2699FB;border-radius: 0;border: none;color: #fff;font-weight: bold;margin-top: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+@media screen and (max-width: 1000px){.boxes .row .box{width: 40%;}.account{width:40%;}}
+@media screen and (max-width: 800px){.boxes .row .box{width: 40%;}.account{width:40%;}}
+@media screen and (max-width: 768px){
+
+	h3{font-size: 1.25em;}
+	h4{font-size: 1em;}
+	p{font-size: .9em;}
+	.sidebar{width: 25%;}
+	.mainbar{width: 75%;}
+	.sidebar .navbar-brand{color: #fff;font-size: .9em;padding: 10px 0;}
+	.sidebar .side_link{padding-left: 20px;}
+	.sidebar .side_link li a{color: #E4E6F4;text-decoration: none;font-size: .9em;}
+	.social img{margin: 10px;display: block;width: 20%;}
+	.account{width:22%;margin}
+	.account h4{font-size: .9em;}
+	.account p{margin-right: 20px;font-size: .9em;}
+	.stock-box .btn-primary{margin: 0 20px 20px 0;width: 50%;font-size: .9em;}
+	.boxes .row .box{width: 80%;}
+	.account{width:50%;}
+}
